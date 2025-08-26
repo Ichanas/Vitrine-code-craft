@@ -66,7 +66,7 @@ const Projects = () => {
   const filtered = active === "Tous" ? projects : projects.filter(p => p.category === active);
 
   return (
-    <section className="bg-black py-16 px-4 flex flex-col items-center">
+    <section id="projets" className="bg-black py-16 px-4 flex flex-col items-center">
       <h2 className="text-yellow-400 text-4xl md:text-5xl font-bold mb-4 text-center">Nos Projets</h2>
       <p className="text-gray-200 text-center mb-8 max-w-2xl">
         Découvrez nos réalisations exceptionnelles qui témoignent de notre expertise

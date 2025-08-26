@@ -9,7 +9,7 @@ import GlitchText from "./Effet/Glitch";
 
 const Home = () => {
   return (
-    <div
+    <div id ="accueil"
       className="relative min-h-screen bg-cover bg-center"
       style={{ backgroundImage: "url('/background.jpg')" }}
     >

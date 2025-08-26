@@ -39,3 +39,10 @@
 html {
   scroll-behavior: smooth;
 }
+body, * {
+  cursor: none; /* Masque le curseur par défaut */
+}
+input, textarea, button {
+  cursor: auto;
+}
+

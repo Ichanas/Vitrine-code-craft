@@ -1,0 +1,23 @@
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #FFD700;
+  transform: translate(-50%, -50%);
+  transition: all 0.15s ease;
+  z-index: 9999;
+}
+
+.custom-cursor.moving {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 215, 0, 0.2);
+}
+
+.custom-cursor.stopped {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}

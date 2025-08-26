@@ -5,10 +5,12 @@ import Contactus from  "./Components/Contactus";
 import Project from "./Components/Project";
 import About from "./Components/AboutUs";
 import Service from "./Components/Services";
+import CustomCursor from "./Components/Curseur/cursor"
 import './App.css';
 export default function App() {
   return (
       <div>
+         <CustomCursor />
            <Home/>
            <Service/>
            <Project/>
