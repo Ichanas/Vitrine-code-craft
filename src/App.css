@@ -1,0 +1,41 @@
+/* ----- WebKit (Chrome, Edge, Safari) ----- */
+:root{
+  --sb-size: 10px;          /* épaisseur */
+  --sb-thumb: #585858;         /* pouce (la partie qu’on bouge) */
+  --sb-track: #000000;         /* rail, quasi noir pour le contraste */
+}
+
+/* Afficher la scrollbar */
+*::-webkit-scrollbar {
+  width: var(--sb-size);
+  height: var(--sb-size);
+}
+
+/* Rail */
+*::-webkit-scrollbar-track {
+  background: var(--sb-track);
+}
+
+/* Pouce */
+*::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb);
+  border-radius: 8px;
+  border: 2px solid var(--sb-track); /* crée un léger contour */
+}
+
+/* Coin (zone angle bas-droit) */
+*::-webkit-scrollbar-corner {
+  background: var(--sb-track);
+}
+
+/* ----- Firefox ----- */
+/* Remarque: Firefox n'accepte que auto | thin | none (pas de valeur 5px) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--sb-thumb) var(--sb-track);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}

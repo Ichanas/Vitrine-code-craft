@@ -22,7 +22,7 @@ const timeline = [
 ];
 
 const About = () => (
-  <section className="bg-black min-h-screen flex flex-col items-center py-16 px-4">
+  <section id="apropos" className="bg-black min-h-screen flex flex-col items-center py-16 px-4">
     <h2 className="text-yellow-400 text-4xl md:text-5xl font-bold text-center mb-2">
       <span className="text-white">À </span>Propos
     </h2>

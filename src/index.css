@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Scrollbar mince et noire */
+body::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background: #181c27;
+  border-radius: 8px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #181c27 transparent;
+}

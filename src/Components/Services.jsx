@@ -69,7 +69,7 @@ const ServiceCard = ({ title, description, icon }) => {
 };
 
 const Services = () => (
-  <section className="bg-black py-16 px-4 flex flex-col items-center">
+  <section id="services" className="bg-black py-16 px-4 flex flex-col items-center">
     <h2 className="text-yellow-400 text-4xl md:text-5xl font-bold mb-4 text-center">Nos Services</h2>
     <p className="text-gray-200 text-center mb-10 max-w-2xl">
       Des solutions sur mesure pour propulser votre entreprise vers l’excellence numérique
